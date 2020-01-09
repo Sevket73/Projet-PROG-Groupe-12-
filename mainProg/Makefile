@@ -16,7 +16,7 @@ mainFusion.o : mainFusion.c utilsP.h fusionPart1.h
 mainProg.o: mainProg.c utilsP.h afficherEntete.h afficherTableSections.h afficherData.h afficher_sym.h afficherRealocation.h
 	$(COMPILE)
 
-FusionPart1.o: fusionPart1.c FusionPart1.h utilsP.h afficherEntete.h afficherTableSections.h afficherData.h afficher_sym.h afficherRealocation.h
+FusionPart1.o: fusionPart1.c fusionPart1.h utilsP.h afficherEntete.h afficherTableSections.h afficherData.h afficher_sym.h afficherRealocation.h
 	$(COMPILE)
 
 afficherEntete.o: afficherEntete.c utilsP.h afficherEntete.h
